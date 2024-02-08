@@ -60,3 +60,80 @@ cd EcommerceProjectt
 git status
 git add .
 git commit -m ""
+
+Usage:
+Signup:
+Customer Registration Form
+
+Username:Babu
+
+Password:1234567
+
+Email:babu7@gmail.com
+
+Full name:Babu Lama Tamang
+
+Address:Bhaktapur
+
+Login:
+Customer Login Form
+
+Username:Babu
+
+Password:1234567
+
+http://127.0.0.1:8000/my-cart/
+Items in my cart:
+SN 	Product 	Rate 	Quantity 	Subtotal 	Action
+1 	Men Blazer 	2000 	   1       	2000 	     + - *
+Total 	                           Rs. 2000 	Empty Cart
+checkout
+
+
+http://127.0.0.1:8000/profile/
+Previous Orders:
+SN 	Order ID 	Amount 	Ordered on 	    Status
+1 	#ORDER_4 	2000 	16 minutes ago 	Order Received
+2 	#ORDER_3 	120 	18 minutes ago 	Order Received
+
+Detail Information:
+
+Name: BabuTamang
+
+Username: Babu
+
+Email: babu7@gmail.com
+
+Address: Lalitpur
+
+Joined on: Feb. 8, 2024, 2:42 p.m.
+
+http://127.0.0.1:8000/search/?keyword=Masks
+Search Results for "Masks"
+KN 95 Masks
+KN 95 Masks...
+Return Policy: No return policy
+
+http://127.0.0.1:8000/checkout/
+Items in the cart:
+Update Cart
+SN 	Product 	Rate 	Quantity 	Subtotal
+1 	Men Blazer 	2000 	1 	        2000
+2 	KN 95 Masks 120 	3 	         360
+Total 	                            Rs. 2360
+
+
+
+Checkout Form
+
+Ordered by:
+
+Shipping address:
+
+Mobile:
+
+Email:
+
+Payment method:Cash On delivery(Khalti)
+
+Place Order
