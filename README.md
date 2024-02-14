@@ -24,6 +24,8 @@ ii)Secure user registration and login
 iii)User roles and permissions (admin, customer)
 
 
+
+
 Product Management:
 
 i)Add, edit, and delete products
@@ -31,6 +33,8 @@ i)Add, edit, and delete products
 ii)Categorize products for easy navigation
 
 iii)Product search and filtering options
+
+
 
 
 
@@ -43,6 +47,8 @@ ii)Update quantity and view the total price
 iii)Persistent shopping cart for logged-in users.
 
 
+
+
 Checkout Process:
 
 i)Secure and user-friendly checkout
@@ -52,11 +58,15 @@ ii)Payment gateway(Khalti)
 iii)Order summary and confirmation
 
 
+
+
 Order Management:
 
 i)Order history and tracking for users
 
 ii)Admin order management interface
+
+
 
 
 Getting Started:
@@ -68,6 +78,8 @@ ii)installed your machine
 iii)Python,Django,Database System(MySQL, SQLite)
 
 
+
+
 Installation:
 
 i)git clone https://github.com/UmeshBabu7/EcommerceProjectt.git 
@@ -75,17 +87,24 @@ i)git clone https://github.com/UmeshBabu7/EcommerceProjectt.git
 ii)cd EcommerceProjectt
 
 
-i)git status
 
-ii)git add .
 
-iii)git commit -m  "something"
+iii)git status
+
+iv)git add .
+
+v)git commit -m  "something"
+
+
 
 
 Usage:
 
 
+
 Customer Registration Form
+
+
 
 Username:Babu
 
@@ -99,11 +118,17 @@ Address:Bhaktapur
 
 Login:
 
+
+
 Customer Login Form
+
+
 
 Username:Babu
 
 Password:1234567
+
+
 
 http://127.0.0.1:8000/my-cart/
 
@@ -119,6 +144,8 @@ Total 	                           Rs. 2000 	Empty Cart
 checkout
 
 
+
+
 http://127.0.0.1:8000/profile/
 
 
@@ -132,7 +159,10 @@ SN 	Order ID 	Amount 	Ordered on 	    Status
 2 	#ORDER_3 	120 	18 minutes ago 	Order Received
 
 
+
+
 Detail Information:
+
 
 Name: BabuTamang
 
@@ -147,7 +177,10 @@ Joined on: Feb. 8, 2024, 2:42 p.m.
 http://127.0.0.1:8000/search/?keyword=Masks
 
 
+
+
 Search Results for "Masks"
+
 
 KN 95 Masks
 
@@ -158,6 +191,7 @@ Return Policy: No return policy
 http://127.0.0.1:8000/checkout/
 
 Items in the cart:
+
 
 Update Cart
 
@@ -173,7 +207,10 @@ Total 	                            Rs. 2360
 
 
 
+
+
 Checkout Form
+
 
 Ordered by:
 
@@ -186,6 +223,8 @@ Email:
 Payment method:Cash On delivery(Khalti)
 
 Place Order
+
+
 
 Contribution:
 
